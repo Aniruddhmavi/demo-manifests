@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata: 
-  name: argo_blankpage
+  name: agroblank-page
   namespace: blankv1
 spec:
   containers:
@@ -10,3 +10,4 @@ spec:
       ports:
 
         - containerPort: 80
+
